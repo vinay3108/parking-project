@@ -1,0 +1,137 @@
+.main-container{
+    width:100%;
+    height: 95px;
+    background-color: #F5F0F0;
+    display: flex;
+    position: relative;
+}
+.logo-side{
+    width:20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-side h1>span{
+    color:#0182FF;
+}
+.content-side{
+    width:80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.upper-part{
+    width: 100%;
+    height: 40%;
+    background-color: #1A1A1A;
+    display: flex;
+    
+}
+.email-part{
+    width: 50%;
+    height: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-part p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 8px;
+    font-size: 12px;
+    color:#fff;
+}
+.email-part p span{
+    margin-right: 8px;
+    margin-top: 1px;
+    color:#0182FF;
+}
+
+.social-icons-part{
+    width: 50%;
+    height: 100%;
+    /* background-color: saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons-part >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    background-color: #454545;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.social-icons-part div a{
+    color:#A9B0B6;
+    display: flex;
+    /* font-weight: lighter; */
+    align-items: center;
+    transition: 0.3s all ease-in;
+}
+.social-icons-part div:hover>a{
+    color:#0182FF;
+}
+
+.navbar{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.main-side{
+    width: 80%;
+    background-color:#fff ;
+}
+.main-side ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.main-side ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+.main-side li:hover>a{
+    color:#0182FF;
+}
+
+
+
+.login-side{
+    width: 20%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.login-side>button{
+    width: 60%;
+    margin: 4px 8px;
+    padding: 4px 16px;
+    background-color:  #0182FF;
+    border-radius: 13px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s all ease ;
+
+}
+.login-side>button:hover{
+    background-color:#fff;
+    color:#0182FF;
+    border:1px solid #0182FF;
+    cursor: pointer;
+}
+
+

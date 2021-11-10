@@ -1,0 +1,194 @@
+.home-container{
+    height:90vh;
+    width: 100%;
+    /* border:1px solid red; */
+    position: relative;
+}
+.home-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    /* border:1px solid blue; */
+    height: 80%;
+}
+.home-wrapper::before{
+    content: "";
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    /* background: url('https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJveSUyMHdpdGglMjBjYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') center center/cover no-repeat; */
+    /* background: url('https://images.unsplash.com/photo-1527776091539-b8c9c0e29dfb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJveSUyMHdpdGglMjBjYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') center center/cover no-repeat; */
+    background: url('https://cdn.pixabay.com/photo/2020/07/19/09/55/man-5419522__340.jpg') center center/cover no-repeat;
+    /* background: url('https://cdn.pixabay.com/photo/2015/09/27/15/28/car-park-960796__340.jpg') center center/cover no-repeat; */
+    /* opacity: 0.9; */
+    
+    z-index: -1;
+}
+
+.home-data-container{
+    width: 70%;
+    margin: 0 auto;
+    /* border:1px solid green; */
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.home-data{
+    width:60%;
+}
+.home-data>h1,p{
+    margin-bottom: 1rem;
+    color:#fff;
+    
+}
+.home-data p{
+    font-size: 14px;
+}
+.home-data h1{
+    font-size: 3.5rem;
+    font-weight: 450;
+}
+.home-cdata >button span{
+    margin:8px;
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 60%;
+    padding: 12px 16px;
+    border-radius: 15px;
+    background: rgba(1, 130, 255);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s all ease-in;
+
+}
+.home-data>button{
+    
+    margin: 8px;
+    padding:8px 16px;
+    width: 40%;
+    border-radius: 4px;
+    background: rgba(1, 130, 255);
+}
+.home-data>button>span{
+    color:#fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.home-data>button:hover{
+    cursor: pointer;
+    /* color: rgba(1, 130, 255, 0.5); */
+    background-color:rgba(1, 130, 255, 0.9); ;
+    border:1px solid black;
+}
+
+.home-parking-container{
+    height: 19vh;
+    width: 75%;
+    position: absolute;
+    bottom: 12%;
+    right:0%;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.home-parking-container input{
+    background-color: #fff;   
+    padding: 5px 16px;
+}
+.home-parking-container input:hover{
+    cursor: pointer;
+}
+.parking-upper-side{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background: magenta; */
+    justify-content: space-around;
+}
+
+.timer-group input.grp-1{
+    border:2px solid #0182FF;
+    color: #0182FF;
+    font-weight: bold;
+}
+.timer-group input.grp-2,.setting-group input.grp-2{
+    color:#fff;
+    background-color: #0182FF;
+    font-weight: bold;
+    border: 1px solid #0182FF;
+}
+.setting-group .grp-1{
+    border:1px solid black;
+    
+}
+.input-group{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.input-group>input[type="text"]{
+    padding-right: 6rem;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.input-group span{
+    position: absolute;
+    margin-top: 2px;
+}
+.setting-group>input:first-child{
+    /* display: flex; */
+    margin-right:3rem;
+}
+.parking-lower-side{
+    height: 50%;
+    width: 100%;
+    /* background: mediumblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parking-near-me{
+    /* border:1px solid red; */
+    width: 30%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+}
+
+.parking-near-me input{
+    width: 60%;
+    height: 100%;
+    /* text-align: left; */
+    /* padding-left: 2rem; */
+      background-color: #0182FF;
+    color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+.parking-near-me span{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* background-color: #0182FF; */
+    color: #fff;
+    /* left:5%; */
+    padding-left:10px ;
+    z-index: 2;
+}
